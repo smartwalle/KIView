@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18699C2F1BE9A076009E2340 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18699C2E1BE9A076009E2340 /* main.m */; };
+		18699C321BE9A076009E2340 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18699C311BE9A076009E2340 /* AppDelegate.m */; };
+		18699C351BE9A076009E2340 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18699C341BE9A076009E2340 /* ViewController.m */; };
+		18699C381BE9A076009E2340 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18699C361BE9A076009E2340 /* Main.storyboard */; };
+		18699C3A1BE9A076009E2340 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18699C391BE9A076009E2340 /* Images.xcassets */; };
+		18699C3D1BE9A076009E2340 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18699C3B1BE9A076009E2340 /* LaunchScreen.xib */; };
+		18699C491BE9A076009E2340 /* KIViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18699C481BE9A076009E2340 /* KIViewTests.m */; };
+		18699C651BE9A11C009E2340 /* KIActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 18699C551BE9A11C009E2340 /* KIActionSheet.m */; };
+		18699C661BE9A11C009E2340 /* KIAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18699C581BE9A11C009E2340 /* KIAlertView.m */; };
+		18699C671BE9A11C009E2340 /* KIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18699C5B1BE9A11C009E2340 /* KIButton.m */; };
+		18699C681BE9A11C009E2340 /* KIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18699C5E1BE9A11C009E2340 /* KIImageView.m */; };
+		18699C691BE9A11C009E2340 /* KITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 18699C611BE9A11C009E2340 /* KITextField.m */; };
+		18699C6A1BE9A11C009E2340 /* KITextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18699C641BE9A11C009E2340 /* KITextView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18699C431BE9A076009E2340 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18699C211BE9A076009E2340 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18699C281BE9A076009E2340;
+			remoteInfo = KIView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18699C291BE9A076009E2340 /* KIView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KIView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18699C2D1BE9A076009E2340 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18699C2E1BE9A076009E2340 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18699C301BE9A076009E2340 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18699C311BE9A076009E2340 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18699C331BE9A076009E2340 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18699C341BE9A076009E2340 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18699C371BE9A076009E2340 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18699C391BE9A076009E2340 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18699C3C1BE9A076009E2340 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		18699C421BE9A076009E2340 /* KIViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KIViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18699C471BE9A076009E2340 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18699C481BE9A076009E2340 /* KIViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIViewTests.m; sourceTree = "<group>"; };
+		18699C541BE9A11C009E2340 /* KIActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIActionSheet.h; sourceTree = "<group>"; };
+		18699C551BE9A11C009E2340 /* KIActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIActionSheet.m; sourceTree = "<group>"; };
+		18699C571BE9A11C009E2340 /* KIAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIAlertView.h; sourceTree = "<group>"; };
+		18699C581BE9A11C009E2340 /* KIAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIAlertView.m; sourceTree = "<group>"; };
+		18699C5A1BE9A11C009E2340 /* KIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIButton.h; sourceTree = "<group>"; };
+		18699C5B1BE9A11C009E2340 /* KIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIButton.m; sourceTree = "<group>"; };
+		18699C5D1BE9A11C009E2340 /* KIImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIImageView.h; sourceTree = "<group>"; };
+		18699C5E1BE9A11C009E2340 /* KIImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIImageView.m; sourceTree = "<group>"; };
+		18699C601BE9A11C009E2340 /* KITextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KITextField.h; sourceTree = "<group>"; };
+		18699C611BE9A11C009E2340 /* KITextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KITextField.m; sourceTree = "<group>"; };
+		18699C631BE9A11C009E2340 /* KITextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KITextView.h; sourceTree = "<group>"; };
+		18699C641BE9A11C009E2340 /* KITextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KITextView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18699C261BE9A076009E2340 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18699C3F1BE9A076009E2340 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18699C201BE9A076009E2340 = {
+			isa = PBXGroup;
+			children = (
+				18699C2B1BE9A076009E2340 /* KIView */,
+				18699C451BE9A076009E2340 /* KIViewTests */,
+				18699C2A1BE9A076009E2340 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18699C2A1BE9A076009E2340 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18699C291BE9A076009E2340 /* KIView.app */,
+				18699C421BE9A076009E2340 /* KIViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18699C2B1BE9A076009E2340 /* KIView */ = {
+			isa = PBXGroup;
+			children = (
+				18699C521BE9A11C009E2340 /* KIView */,
+				18699C301BE9A076009E2340 /* AppDelegate.h */,
+				18699C311BE9A076009E2340 /* AppDelegate.m */,
+				18699C331BE9A076009E2340 /* ViewController.h */,
+				18699C341BE9A076009E2340 /* ViewController.m */,
+				18699C361BE9A076009E2340 /* Main.storyboard */,
+				18699C391BE9A076009E2340 /* Images.xcassets */,
+				18699C3B1BE9A076009E2340 /* LaunchScreen.xib */,
+				18699C2C1BE9A076009E2340 /* Supporting Files */,
+			);
+			path = KIView;
+			sourceTree = "<group>";
+		};
+		18699C2C1BE9A076009E2340 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18699C2D1BE9A076009E2340 /* Info.plist */,
+				18699C2E1BE9A076009E2340 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18699C451BE9A076009E2340 /* KIViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				18699C481BE9A076009E2340 /* KIViewTests.m */,
+				18699C461BE9A076009E2340 /* Supporting Files */,
+			);
+			path = KIViewTests;
+			sourceTree = "<group>";
+		};
+		18699C461BE9A076009E2340 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18699C471BE9A076009E2340 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18699C521BE9A11C009E2340 /* KIView */ = {
+			isa = PBXGroup;
+			children = (
+				18699C531BE9A11C009E2340 /* KIActionSheet */,
+				18699C561BE9A11C009E2340 /* KIAlertView */,
+				18699C591BE9A11C009E2340 /* KIButton */,
+				18699C5C1BE9A11C009E2340 /* KIImageView */,
+				18699C5F1BE9A11C009E2340 /* KITextField */,
+				18699C621BE9A11C009E2340 /* KITextView */,
+			);
+			path = KIView;
+			sourceTree = "<group>";
+		};
+		18699C531BE9A11C009E2340 /* KIActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				18699C541BE9A11C009E2340 /* KIActionSheet.h */,
+				18699C551BE9A11C009E2340 /* KIActionSheet.m */,
+			);
+			path = KIActionSheet;
+			sourceTree = "<group>";
+		};
+		18699C561BE9A11C009E2340 /* KIAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				18699C571BE9A11C009E2340 /* KIAlertView.h */,
+				18699C581BE9A11C009E2340 /* KIAlertView.m */,
+			);
+			path = KIAlertView;
+			sourceTree = "<group>";
+		};
+		18699C591BE9A11C009E2340 /* KIButton */ = {
+			isa = PBXGroup;
+			children = (
+				18699C5A1BE9A11C009E2340 /* KIButton.h */,
+				18699C5B1BE9A11C009E2340 /* KIButton.m */,
+			);
+			path = KIButton;
+			sourceTree = "<group>";
+		};
+		18699C5C1BE9A11C009E2340 /* KIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				18699C5D1BE9A11C009E2340 /* KIImageView.h */,
+				18699C5E1BE9A11C009E2340 /* KIImageView.m */,
+			);
+			path = KIImageView;
+			sourceTree = "<group>";
+		};
+		18699C5F1BE9A11C009E2340 /* KITextField */ = {
+			isa = PBXGroup;
+			children = (
+				18699C601BE9A11C009E2340 /* KITextField.h */,
+				18699C611BE9A11C009E2340 /* KITextField.m */,
+			);
+			path = KITextField;
+			sourceTree = "<group>";
+		};
+		18699C621BE9A11C009E2340 /* KITextView */ = {
+			isa = PBXGroup;
+			children = (
+				18699C631BE9A11C009E2340 /* KITextView.h */,
+				18699C641BE9A11C009E2340 /* KITextView.m */,
+			);
+			path = KITextView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18699C281BE9A076009E2340 /* KIView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18699C4C1BE9A076009E2340 /* Build configuration list for PBXNativeTarget "KIView" */;
+			buildPhases = (
+				18699C251BE9A076009E2340 /* Sources */,
+				18699C261BE9A076009E2340 /* Frameworks */,
+				18699C271BE9A076009E2340 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KIView;
+			productName = KIView;
+			productReference = 18699C291BE9A076009E2340 /* KIView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18699C411BE9A076009E2340 /* KIViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18699C4F1BE9A076009E2340 /* Build configuration list for PBXNativeTarget "KIViewTests" */;
+			buildPhases = (
+				18699C3E1BE9A076009E2340 /* Sources */,
+				18699C3F1BE9A076009E2340 /* Frameworks */,
+				18699C401BE9A076009E2340 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18699C441BE9A076009E2340 /* PBXTargetDependency */,
+			);
+			name = KIViewTests;
+			productName = KIViewTests;
+			productReference = 18699C421BE9A076009E2340 /* KIViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18699C211BE9A076009E2340 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = smartwalle;
+				TargetAttributes = {
+					18699C281BE9A076009E2340 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					18699C411BE9A076009E2340 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 18699C281BE9A076009E2340;
+					};
+				};
+			};
+			buildConfigurationList = 18699C241BE9A076009E2340 /* Build configuration list for PBXProject "KIView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18699C201BE9A076009E2340;
+			productRefGroup = 18699C2A1BE9A076009E2340 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18699C281BE9A076009E2340 /* KIView */,
+				18699C411BE9A076009E2340 /* KIViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18699C271BE9A076009E2340 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18699C381BE9A076009E2340 /* Main.storyboard in Resources */,
+				18699C3D1BE9A076009E2340 /* LaunchScreen.xib in Resources */,
+				18699C3A1BE9A076009E2340 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18699C401BE9A076009E2340 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18699C251BE9A076009E2340 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18699C6A1BE9A11C009E2340 /* KITextView.m in Sources */,
+				18699C661BE9A11C009E2340 /* KIAlertView.m in Sources */,
+				18699C671BE9A11C009E2340 /* KIButton.m in Sources */,
+				18699C681BE9A11C009E2340 /* KIImageView.m in Sources */,
+				18699C351BE9A076009E2340 /* ViewController.m in Sources */,
+				18699C651BE9A11C009E2340 /* KIActionSheet.m in Sources */,
+				18699C691BE9A11C009E2340 /* KITextField.m in Sources */,
+				18699C321BE9A076009E2340 /* AppDelegate.m in Sources */,
+				18699C2F1BE9A076009E2340 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18699C3E1BE9A076009E2340 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18699C491BE9A076009E2340 /* KIViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18699C441BE9A076009E2340 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18699C281BE9A076009E2340 /* KIView */;
+			targetProxy = 18699C431BE9A076009E2340 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18699C361BE9A076009E2340 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18699C371BE9A076009E2340 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18699C3B1BE9A076009E2340 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18699C3C1BE9A076009E2340 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18699C4A1BE9A076009E2340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18699C4B1BE9A076009E2340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18699C4D1BE9A076009E2340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KIView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18699C4E1BE9A076009E2340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KIView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18699C501BE9A076009E2340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KIViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KIView.app/KIView";
+			};
+			name = Debug;
+		};
+		18699C511BE9A076009E2340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KIViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KIView.app/KIView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18699C241BE9A076009E2340 /* Build configuration list for PBXProject "KIView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18699C4A1BE9A076009E2340 /* Debug */,
+				18699C4B1BE9A076009E2340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18699C4C1BE9A076009E2340 /* Build configuration list for PBXNativeTarget "KIView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18699C4D1BE9A076009E2340 /* Debug */,
+				18699C4E1BE9A076009E2340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18699C4F1BE9A076009E2340 /* Build configuration list for PBXNativeTarget "KIViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18699C501BE9A076009E2340 /* Debug */,
+				18699C511BE9A076009E2340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18699C211BE9A076009E2340 /* Project object */;
+}
