@@ -5,12 +5,13 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                   KIView.
                    DESC
+                   
   s.homepage     = "https://github.com/smartwalle/KIView"
   s.license      = "MIT"
   s.author       = { "SmartWalle" => "smartwalle@gmail.com" }
   s.platform     = :ios, "6.0"
   s.source       = { :git => "https://github.com/smartwalle/KIView.git", :branch => "master",  :submodules => true }
-  s.source_files  = "KIView/KIView/**/*.{h,m}"
+  s.source_files  = "KIView/KIView/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   s.framework  = "UIKit"
