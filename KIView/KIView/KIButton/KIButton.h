@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+IB_DESIGNABLE
 @interface KIButton : UIButton
 
-@property (nonatomic, assign) BOOL  irregularly;
+@property (nonatomic, assign) IBInspectable BOOL  irregularly;
 
 @end

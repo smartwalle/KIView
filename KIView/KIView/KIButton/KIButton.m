@@ -7,7 +7,7 @@
 //
 
 #import "KIButton.h"
-#import "UIImage+KIAdditions.h"
+#import "UIImage+ColorAtPixel.h"
 
 #define kAlphaVisibleThreshold (0.1f)
 
@@ -45,7 +45,7 @@
     point.x *= (bSize.width != 0) ? (iSize.width / bSize.width) : 1;
     point.y *= (bSize.height != 0) ? (iSize.height / bSize.height) : 1;
     
-    CGColorRef pixelColor = [[image colorAtPixel:point] CGColor];
+    CGColorRef pixelColor = [[image cp_colorAtPixel:point] CGColor];
     CGFloat alpha = CGColorGetAlpha(pixelColor);
     return alpha >= kAlphaVisibleThreshold;
 }
