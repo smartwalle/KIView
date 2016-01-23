@@ -8,10 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+IB_DESIGNABLE
 @interface KITextField : UITextField {
-    UIEdgeInsets    _padding;
 }
 
 @property (nonatomic, assign) UIEdgeInsets  padding;
+
+@property (nonatomic, assign) IBInspectable CGFloat paddingTop;
+@property (nonatomic, assign) IBInspectable CGFloat paddingBottom;
+@property (nonatomic, assign) IBInspectable CGFloat paddingLeft;
+@property (nonatomic, assign) IBInspectable CGFloat paddingRight;
 
 @end

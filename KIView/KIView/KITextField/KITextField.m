@@ -10,22 +10,36 @@
 
 @implementation KITextField
 
-@synthesize padding = _padding;
-
-- (CGFloat)paddingTop {
-    return self.padding.top;
+- (void)setPadding:(UIEdgeInsets)padding {
+    _paddingTop = padding.top;
+    _paddingBottom = padding.bottom;
+    _paddingLeft = padding.left;
+    _paddingRight = padding.right;
+    [self setNeedsLayout];
 }
 
-- (CGFloat)paddingBottom {
-    return self.padding.bottom;
+- (UIEdgeInsets)padding  {
+    return UIEdgeInsetsMake(_paddingTop, _paddingLeft, _paddingLeft, _paddingRight);
 }
 
-- (CGFloat)paddingLeft {
-    return self.padding.left;
+- (void)setPaddingTop:(CGFloat)paddingTop {
+    _paddingTop = paddingTop;
+    [self setNeedsLayout];
 }
 
-- (CGFloat)paddingRight {
-    return self.padding.right;
+- (void)setPaddingBottom:(CGFloat)paddingBottom {
+    _paddingBottom = paddingBottom;
+    [self setNeedsLayout];
+}
+
+- (void)setPaddingLeft:(CGFloat)paddingLeft {
+    _paddingLeft = paddingLeft;
+    [self setNeedsLayout];
+}
+
+- (void)setPaddingRight:(CGFloat)paddingRight {
+    _paddingRight = paddingRight;
+    [self setNeedsLayout];
 }
 
 - (CGRect)textRectForBounds:(CGRect)bounds {
