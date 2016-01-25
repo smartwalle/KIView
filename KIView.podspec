@@ -16,7 +16,10 @@ Pod::Spec.new do |s|
 
   s.framework  = "UIKit"
   s.requires_arc = true
- 
+
+  s.subspec 'KIView' do |ss|
+    ss.source_files  = "KIView/KIView/KIView/*.{h,m}"
+  end
   s.subspec 'KIActionSheet' do |ss|
     ss.source_files  = "KIView/KIView/KIActionSheet/*.{h,m}"
   end
@@ -36,6 +39,7 @@ Pod::Spec.new do |s|
   s.subspec 'KITextField' do |ss|
     ss.source_files  = "KIView/KIView/KITextField/*.{h,m}"
   end
+  
   s.subspec 'KITextView' do |ss|
     ss.source_files  = "KIView/KIView/KITextView/*.{h,m}"
   end
