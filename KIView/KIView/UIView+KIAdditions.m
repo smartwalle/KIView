@@ -11,7 +11,7 @@
 
 static char KI_VIEW_USER_INFO_KEY;
 
-#define kActivityViewTag 1010110
+#define kWaitViewTag 1010110
 
 @implementation UIView (KIAdditions)
 
@@ -188,6 +188,38 @@ static char KI_VIEW_USER_INFO_KEY;
     } else {
         return nil;
     }
+}
+
+- (UIActivityIndicatorView *)waitView {
+    UIActivityIndicatorView *av = [self viewWithTag:kWaitViewTag];
+    if (av == nil) {
+        av = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
+        [av setTag:kWaitViewTag];
+        [av setHidesWhenStopped:YES];
+        [av setUserInteractionEnabled:NO];
+        [self addSubview:av];
+    }
+    return av;
+}
+
+- (void)showWaitingView:(void(^)(UIActivityIndicatorView *waitView))block {
+    [[self waitView] setCenter:CGPointMake(CGRectGetWidth(self.frame) * 0.5, CGRectGetHeight(self.frame) * 0.5)];
+    [self bringSubviewToFront:[self waitView]];
+    [[self waitView] startAnimating];
+    if (block != nil) {
+        block([self waitView]);
+    }
+}
+
+- (void)hideWaitingView:(void(^)(UIActivityIndicatorView *waitView))block {
+    [[self waitView] stopAnimating];
+    if (block != nil) {
+        block([self waitView]);
+    }
+}
+
+- (BOOL)isWaiting {
+    return [[self waitView] isAnimating];
 }
 
 @end

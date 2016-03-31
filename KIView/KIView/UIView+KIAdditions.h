@@ -61,4 +61,8 @@
 
 - (UIViewController *)viewController;
 
+- (void)showWaitingView:(void(^)(UIActivityIndicatorView *waitView))block;
+- (void)hideWaitingView:(void(^)(UIActivityIndicatorView *waitView))block;
+- (BOOL)isWaiting;
+
 @end
