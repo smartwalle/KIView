@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { "SmartWalle" => "smartwalle@gmail.com" }
   s.platform     = :ios, "6.0"
-  s.source       = { :git => "https://github.com/smartwalle/KIView.git", :branch => "master",  :submodules => true }
+  s.source       = { :git => "https://github.com/smartwalle/KIView.git", :tag => "#{s.version}",  :submodules => true }
   s.source_files  = "KIView/KIView/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
