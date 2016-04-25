@@ -10,37 +10,9 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { "SmartWalle" => "smartwalle@gmail.com" }
   s.platform     = :ios, "6.0"
-  s.source       = { :git => "https://github.com/smartwalle/KIView.git", :tag => "#{s.version}",  :submodules => true }
-  s.source_files  = "KIView/KIView/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source       = { :git => "https://github.com/smartwalle/KIView.git", :tag => "#{s.version}"}
+  s.source_files  = "KIView/KIView/**/*.{h,m}", "KIView/KIView/*.{h,m}"
 
   s.framework  = "UIKit"
   s.requires_arc = true
-
-  s.subspec 'KIView' do |ss|
-    ss.source_files  = "KIView/KIView/KIView/*.{h,m}"
-  end
-  s.subspec 'KIActionSheet' do |ss|
-    ss.source_files  = "KIView/KIView/KIActionSheet/*.{h,m}"
-  end
-
-  s.subspec 'KIAlertView' do |ss|
-    ss.source_files  = "KIView/KIView/KIAlertView/*.{h,m}"
-  end
-
-  s.subspec 'KIButton' do |ss|
-    ss.source_files  = "KIView/KIView/KIButton/*.{h,m}"
-  end
-
-  s.subspec 'KIImageView' do |ss|
-    ss.source_files  = "KIView/KIView/KIImageView/*.{h,m}"
-  end
-
-  s.subspec 'KITextField' do |ss|
-    ss.source_files  = "KIView/KIView/KITextField/*.{h,m}"
-  end
-  
-  s.subspec 'KITextView' do |ss|
-    ss.source_files  = "KIView/KIView/KITextView/*.{h,m}"
-  end
 end
