@@ -19,7 +19,6 @@
 		18699C3A1BE9A076009E2340 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18699C391BE9A076009E2340 /* Images.xcassets */; };
 		18699C3D1BE9A076009E2340 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18699C3B1BE9A076009E2340 /* LaunchScreen.xib */; };
 		18699C491BE9A076009E2340 /* KIViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18699C481BE9A076009E2340 /* KIViewTests.m */; };
-		18699C651BE9A11C009E2340 /* KIActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 18699C551BE9A11C009E2340 /* KIActionSheet.m */; };
 		18699C661BE9A11C009E2340 /* KIAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18699C581BE9A11C009E2340 /* KIAlertView.m */; };
 		18699C691BE9A11C009E2340 /* KITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 18699C611BE9A11C009E2340 /* KITextField.m */; };
 		18699C6A1BE9A11C009E2340 /* KITextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18699C641BE9A11C009E2340 /* KITextView.m */; };
@@ -59,8 +58,6 @@
 		18699C421BE9A076009E2340 /* KIViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KIViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18699C471BE9A076009E2340 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18699C481BE9A076009E2340 /* KIViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIViewTests.m; sourceTree = "<group>"; };
-		18699C541BE9A11C009E2340 /* KIActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIActionSheet.h; sourceTree = "<group>"; };
-		18699C551BE9A11C009E2340 /* KIActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIActionSheet.m; sourceTree = "<group>"; };
 		18699C571BE9A11C009E2340 /* KIAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIAlertView.h; sourceTree = "<group>"; };
 		18699C581BE9A11C009E2340 /* KIAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIAlertView.m; sourceTree = "<group>"; };
 		18699C601BE9A11C009E2340 /* KITextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KITextField.h; sourceTree = "<group>"; };
@@ -164,7 +161,6 @@
 				1816C78D1C53788E00B05B12 /* UIImage+ColorAtPixel.h */,
 				1816C78E1C53788E00B05B12 /* UIImage+ColorAtPixel.m */,
 				1816C7801C536B5A00B05B12 /* KIView */,
-				18699C531BE9A11C009E2340 /* KIActionSheet */,
 				18699C561BE9A11C009E2340 /* KIAlertView */,
 				18699C591BE9A11C009E2340 /* KIButton */,
 				18699C5C1BE9A11C009E2340 /* KIImageView */,
@@ -172,15 +168,6 @@
 				18699C621BE9A11C009E2340 /* KITextView */,
 			);
 			path = KIView;
-			sourceTree = "<group>";
-		};
-		18699C531BE9A11C009E2340 /* KIActionSheet */ = {
-			isa = PBXGroup;
-			children = (
-				18699C541BE9A11C009E2340 /* KIActionSheet.h */,
-				18699C551BE9A11C009E2340 /* KIActionSheet.m */,
-			);
-			path = KIActionSheet;
 			sourceTree = "<group>";
 		};
 		18699C561BE9A11C009E2340 /* KIAlertView */ = {
@@ -333,7 +320,6 @@
 				1816C78C1C5376BF00B05B12 /* KIImageView.m in Sources */,
 				1816C7831C536B5A00B05B12 /* KIView.m in Sources */,
 				18699C351BE9A076009E2340 /* ViewController.m in Sources */,
-				18699C651BE9A11C009E2340 /* KIActionSheet.m in Sources */,
 				1816C7891C53744D00B05B12 /* KIButton.m in Sources */,
 				1816C7861C536CC900B05B12 /* UIView+KIAdditions.m in Sources */,
 				18699C691BE9A11C009E2340 /* KITextField.m in Sources */,
